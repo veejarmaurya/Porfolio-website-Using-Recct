@@ -3,7 +3,7 @@ import Bannerimage from '../assets/image1.jpg'
 import { useState ,useRef, useEffect} from 'react'
 const banner =()=>{
   
-    const el = useRef(null)
+    const el = useRef(null);
   
     useEffect(() => {
         const typed = new Typed(el.current, {
