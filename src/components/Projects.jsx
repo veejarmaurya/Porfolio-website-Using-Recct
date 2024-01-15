@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Dp2  from '../assets/DP2.jpeg'
+import Dp2  from '../assets/Dp2.jpeg'
 const Projects =()=>{
  
     const[Activelink, setActivelink] = useState("All");
