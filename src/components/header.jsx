@@ -38,8 +38,9 @@ import cv from "../assets/mycv.pdf";
 );
  
 const handleDownload= ()=>{
-    const fileUrl = cv;
-    saveAs(fileUrl,'Rajeev_CV.pdf');
+    import('../assets/mycv.pdf').then(({ default: pdf }) => {
+        saveAs(pdf, 'Rajeev_CV.pdf');
+      });
 }
 
 
