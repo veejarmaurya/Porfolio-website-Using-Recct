@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, Outlet} from "react-router-dom";
 import { useEffect } from "react";
 import { saveAs } from "file-saver";
+import cv from '../assets/mycv.pdf'
 //import { Link } from "react-scroll";
 
  const Header=()=>{
@@ -37,7 +38,7 @@ import { saveAs } from "file-saver";
 );
  
 const handleDownload= ()=>{
-    const fileUrl = './assets/MyCV.pdf';
+    const fileUrl = cv;
     saveAs(fileUrl,'Rajeev_CV.pdf');
 }
 
