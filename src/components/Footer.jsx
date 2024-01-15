@@ -2,7 +2,7 @@
 const Footer =()=>{
     return(
         <>
-         <div className=" bg-red-300 h-96 flex flex-col  ">
+         <div className=" bg-red-300 h-fit flex flex-col  ">
              <div className="font-bold text-2xl text-center mt-20">    
                   <h2>Rajeev Ratan Maurya</h2>            
              </div>
@@ -21,6 +21,7 @@ const Footer =()=>{
              </div>
 
                <h5 className="text-center mt-24"><i class="fa-solid fa-copyright"></i> &nbsp;Rajeev Ratan Maurya. All rigths reserved</h5>
+               <a href="" className="text-center ">Privacy Policy</a>
 
    </div>
         </>
