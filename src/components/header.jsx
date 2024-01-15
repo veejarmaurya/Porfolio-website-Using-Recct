@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, Outlet} from "react-router-dom";
 import { useEffect } from "react";
 import { saveAs } from "file-saver";
-import cv from '../assets/mycv.pdf'
+import cv from "../assets/mycv.pdf";
 //import { Link } from "react-scroll";
 
  const Header=()=>{
