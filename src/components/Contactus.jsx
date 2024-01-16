@@ -51,7 +51,7 @@ const Contact =()=>{
                                             placeholder="Write your Message here...."
                                             className="border-2 rounded-xl border-black border-b w-full h-40 p-4 mt-16"
                                             ></textarea>
-                               <button className="text-center w-3/5 h-8 m-10 ml-12 md:ml-28 word-wrap rounded-2xl bg-orange-500 " type="submit">Send Message</button>
+                               <button className="text-center w-3/5 h-8 m-10 ml-12 md:ml-28 word-wrap rounded-2xl bg-orange-500 overflow-hidden break-words md:break-before-avoid " type="submit">Send</button>
                           </form>          
                         </div>
 
