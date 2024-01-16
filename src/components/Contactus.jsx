@@ -15,7 +15,7 @@ const Contact =()=>{
                                  <div className="text-center p-4">
                                   <i class="fa-regular fa-envelope"></i>
                                     <h3>Email</h3>
-                                    <h4 className="underline break-words md:break-before-avoid overflow-x-auto">mrajeevratan@gmail.com</h4> <br />
+                                    <h4 className="underline  overflow-hidden">mrajeevratan@gmail.com</h4> <br />
                                     <a className="text-xl text-blue-900 ml-2 font-serif  hover:text-red-600" href="mailto:mrajeevratan@gmail.com" >Write Me &nbsp; <i class="fa-solid fa-arrow-right "></i></a>
                                  </div>
                                 
@@ -24,7 +24,7 @@ const Contact =()=>{
                                 <div className="text-center p-4">
                                 <i class="fa-brands fa-linkedin"></i>
                                     <h3>LinkedIn</h3>
-                                    <h4 className="underline">rajeevratanmaurya</h4> <br />
+                                    <h4 className="underline  overflow-hidden">rajeevratanmaurya</h4> <br />
                                     <a className="text-xl text-blue-900 ml-2 font-serif  hover:text-red-600" href="https://www.linkedin.com/in/rajeevratanmaurya" target="blank">Connect Me &nbsp; <i class="fa-solid fa-arrow-right "></i></a>
                                  </div>
                             </div>
@@ -32,14 +32,14 @@ const Contact =()=>{
                                <div className="text-center p-4">
                                <i class="fa-brands fa-twitter"></i>
                                     <h3>Twitter</h3>
-                                    <h4 className="underline">@rajeev_mratan</h4> <br />
+                                    <h4 className="underline  overflow-hidden">@rajeev_mratan</h4> <br />
                                     <a className="text-xl text-blue-900 ml-2 font-serif hover:text-red-600" href="http://twitter.com/rajeev_mratan" target="blank">Write Me &nbsp; <i class="fa-solid fa-arrow-right "></i></a>
                                  </div>
                             </div>
                           </div>
                    
                           <div className="p-2 visible md:invisible ml-[40px] mt-5 font-bold text-xl"> Give me Details of your Project </div>
-                        <div className="w-3/5 h-auto mt-4  flex flex-col ml-8 md:ml-20 border-black">
+                        <div className="w-3/5 h-auto mt-4  flex flex-col ml-12 md:ml-0 border-black">
                             <form action="">
                               <input type="text" name="Name" id="" placeholder="Write your Name here..." 
                               className="border-2 rounded-xl border-black w-full h-20  mt-2 p-4" />
@@ -51,7 +51,7 @@ const Contact =()=>{
                                             placeholder="Write your Message here...."
                                             className="border-2 rounded-xl border-black border-b w-full h-40 p-4 mt-16"
                                             ></textarea>
-                               <button className="text-center w-3/5 h-8 m-10 ml-18 md:ml-32 word-wrap rounded-2xl bg-orange-500 " type="submit">Send Message</button>
+                               <button className="text-center w-3/5 h-8 m-10 ml-12 md:ml-28 word-wrap rounded-2xl bg-orange-500 " type="submit">Send Message</button>
                           </form>          
                         </div>
 
