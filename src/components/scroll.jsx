@@ -4,7 +4,7 @@ import { useEffect,useState } from "react";
 const setStickNavBar =()=>{
       
   const [isVisible, setisVisible] = useState(false);
- const [scrollpos ,setscrollpos] = useState(0);
+ const [scrollpos,setscrollpos] = useState(0);
 
    useEffect( ()=>{
 
